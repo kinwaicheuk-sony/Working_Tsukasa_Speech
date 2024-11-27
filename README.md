@@ -160,11 +160,14 @@ pip install -r requirements.txt
 
 ***everything said in 2, applies here. make sure your style vector is suitable for that. but generally it's not recommended to use a very short input.***
 
-4. Nans in 2nd Stage:
+4. About the Names used in kotodama inference:
+***They are all random names mapped to the ids. they have no relation to the speaker, their role in a series or anything. there are hundreds of names so I should provide a metadata later. though the model should work with any random names thrown at it.***
+
+5. Nans in 2nd Stage:
 
 ***Your gradients are probably exploding. try clipping or your batch size is way too high. if that didn't work, feel free to do the first few epochs which is the pre-training stage, using the original DP script. or use DP entriely.***
 
-4. Supporting English (or other languages):
+6. Supporting English (or other languages):
 
 ***There is a wide gap between English and other languages, so I mostly focus on non-English projects. but the good folks at Shoukan labs are trying to train a multilingual model with English included. however, if i ever do myself, it'll be focused on something specific (let's say accents).***
 
