@@ -28,8 +28,8 @@ tags:
 
 Part of a [personal project](https://github.com/Respaired/Project-Kanade), focusing on further advancing Japanese speech field. 
 
-- Use the HuggingFace Space for **Tsukasa** (24khz): [![huggingface](https://img.shields.io/badge/Interactive_Demo-HuggingFace-yellow)](https://huggingface.co/spaces/Respair/Shiki)
-- HuggingFace Space for **Tsumugi** (48khz): [![huggingface](https://img.shields.io/badge/Interactive_Demo-HuggingFace-yellow)](https://huggingface.co/spaces/Respair/Shiki)
+- Use the HuggingFace Space for **Tsukasa** (24khz): [![huggingface](https://img.shields.io/badge/Interactive_Demo-HuggingFace-yellow)](https://huggingface.co/spaces/Respair/Tsukasa_Speech)
+- HuggingFace Space for **Tsumugi** (48khz): [![huggingface](https://img.shields.io/badge/Interactive_Demo-HuggingFace-yellow)](https://huggingface.co/spaces/Respair/Tsumugi_48khz)
 
 - Join Shoukan lab's discord server, a comfy place I frequently visit -> [![Discord](https://img.shields.io/discord/1197679063150637117?logo=discord&logoColor=white&label=Join%20our%20Community)](https://discord.gg/JrPSzdcM)
 
@@ -54,15 +54,15 @@ This is a speech generation network, aimed at maximizing the expressiveness and 
 - Fixed DDP and BF16 Training (mostly!)
 
 
-There are two checkpoints you can use. Tsukasa & Tsumugi (placeholder).
+There are two checkpoints you can use. Tsukasa & Tsumugi 48khz (placeholder).
 
 Tsukasa was trained on ~800 hours of studio grade, high quality data. sourced mainly from games and novels, part of it from a private dataset.
 So the Japanese is going to be the "anime japanese" (it's different than what people usually speak in real-life.)
 
-For Tsumugi (placeholder) a subset of this data was used; at around ~300 hours but in a more controlled manner with additional manual cleaning & annotations. 
+For Tsumugi (placeholder) a subset of this data was used with a 48khz config; at around ~300 hours but in a more controlled manner with additional manual cleaning & annotations. 
 
-Unfortuantely Tsumugi's context length is capped and that means the model will not have enough information to handle the intonations as good as Tsukasa. 
-it also only supports the first mode of Kotodama's inference, which means no voice design. 
+**Unfortuantely Tsumugi (48khz)'s context length is capped and that means the model will not have enough information to handle the intonations as good as Tsukasa. 
+it also only supports the first mode of Kotodama's inference, which means no voice design.**
 
 
 Brought to you by:
@@ -74,7 +74,7 @@ Brought to you by:
 
 Special thanks to Yinghao Aaron Li, the Author of StyleTTS which this work is based on top of that. <br> He is one of the most talented Engineers I've ever seen in this field. 
 Also Karesto and Raven for their help in debugging some of the scripts. wonderful people.
-
+___________________________________________________________________________________
 ## Why does it matter?
 
 Recently, there's a big trend towards larger models, increasing the scale. We're going the opposite way, trying to see how far we can push the limits by utilizing existing tools.
