@@ -126,8 +126,8 @@ I can think of a few things that can be improved, not nessarily by me, treat it 
 1. Python >= 3.11
 2. Clone this repository:
 ```bash
-git clone https://github.com/yl4579/StyleTTS2.git
-cd StyleTTS2
+git clone https://huggingface.co/Respair/Tsukasa_Speech
+cd Tsukasa_Speech
 ```
 3. Install python requirements: 
 ```bash
