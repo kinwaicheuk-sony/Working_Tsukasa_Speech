@@ -62,9 +62,9 @@ Tsumugi(仮称)は、この データの一部約300時間を使用し、さら�
 提供:
 
 - Soshyant (私)
-- Auto Meta (Alignment AI Lab)
-- Cryptowooser
-- Buttercream
+- [Auto Meta](https://github.com/Alignment-Lab-AI)
+- [Cryptowooser](https://github.com/cryptowooser)
+- [Buttercream](https://github.com/korakoe)
 
 ## なぜ重要なのですか?
 
@@ -159,6 +159,11 @@ pip install -r requirements.txt
 
 ***グラジエントが爆発しているのかもしれません。クリッピングを試すか、バッチサイズが大すぎる可能性があります。それでも解決しない場合は、オリジナルのDPスクリプトを使って最初の数エポックを事前訓練することをお勧めします。または、完全にDPを使用してください。***
 
+5. ご質問があった場合は、遠慮なく教えてください。
+```
+saoshiant@protonmail.com
+```
+Discordも可能です。
 
 
 
