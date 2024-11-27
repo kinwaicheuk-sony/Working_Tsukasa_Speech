@@ -59,12 +59,15 @@ Tsumugi(仮称)は、この データの一部約300時間を使用し、さら�
 また、Kotodamaのインファレンスの最初のモードしかサポートしていないため、ボイスデザインはできません。
 
 
-提供:
+Brought to you by:
 
 - Soshyant (私)
 - [Auto Meta](https://github.com/Alignment-Lab-AI)
 - [Cryptowooser](https://github.com/cryptowooser)
 - [Buttercream](https://github.com/korakoe)
+
+このプロジェクトは、StyleTTSの著者であるYinghao Aaron Li氏の成果に基づいています。<br> 彼はこの分野で最も才能あるエンジニアの一人だと思います。
+
 
 ## なぜ重要なのですか?
 
