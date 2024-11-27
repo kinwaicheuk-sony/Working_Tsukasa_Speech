@@ -33,6 +33,9 @@ Part of a [personal project](https://github.com/Respaired/Project-Kanade), focus
 
 - Join Shoukan lab's discord server, a comfy place I frequently visit -> [![Discord](https://img.shields.io/discord/1197679063150637117?logo=discord&logoColor=white&label=Join%20our%20Community)](https://discord.gg/JrPSzdcM)
 
+Github's repo:
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Respaired/Tsukasa-Speech)
+
 ## What is this?
 
 *Note*: This model only supports the Japanese language; but you can feed it Romaji if you use the Gradio demo.
@@ -70,6 +73,7 @@ Brought to you by:
 - [Buttercream](https://github.com/korakoe)
 
 Special thanks to Yinghao Aaron Li, the Author of StyleTTS which this work is based on top of that. <br> He is one of the most talented Engineers I've ever seen in this field. 
+Also Karesto and Raven for their help in debugging some of the scripts. wonderful people.
 
 ## Why does it matter?
 
@@ -173,7 +177,11 @@ pip install -r requirements.txt
 
 ***There is a wide gap between English and other languages, so I mostly focus on non-English projects. but the good folks at Shoukan labs are trying to train a multilingual model with English included. however, if i ever do myself, it'll be focused on something specific (let's say accents).***
 
-8. Any questions?
+8. Can I use the DDP on the original StyleTTS without any of your modifications?
+
+***Sure! but you need to do some changes. replace the xlstm's pre projection at around line 922 with the lines of the original's script. you also have to modify prosody encoder and put the contents of F0Ntrain into the forward function of the prosody encoder itself.***
+
+9. Any questions?
 ```email
 saoshiant@protonmail.com
 ```
