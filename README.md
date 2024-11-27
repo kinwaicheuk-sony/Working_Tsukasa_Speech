@@ -65,9 +65,9 @@ it also only supports the first mode of Kotodama's inference, which means no voi
 Brought to you by:
 
 - Soshyant (me)
-- Auto Meta (Alignment AI Lab)
-- Cryptowooser
-- Buttercream
+- [Auto Meta] (https://github.com/Alignment-Lab-AI)
+- [Cryptowooser](https://github.com/cryptowooser)
+- [Buttercream](https://github.com/korakoe)
 
 ## Why does it matter?
 
@@ -161,6 +161,7 @@ pip install -r requirements.txt
 ***everything said in 2, applies here. make sure your style vector is suitable for that. but generally it's not recommended to use a very short input.***
 
 4. About the Names used in kotodama inference:
+
 ***They are all random names mapped to the ids. they have no relation to the speaker, their role in a series or anything. there are hundreds of names so I should provide a metadata later. though the model should work with any random names thrown at it.***
 
 5. Nans in 2nd Stage:
@@ -171,6 +172,11 @@ pip install -r requirements.txt
 
 ***There is a wide gap between English and other languages, so I mostly focus on non-English projects. but the good folks at Shoukan labs are trying to train a multilingual model with English included. however, if i ever do myself, it'll be focused on something specific (let's say accents).***
 
+7. any questions:
+   
+   ```
+   *saoshiant@Protonmail.com* or dm me on discord.
+   ``` 
 
 ## Some cool projects:
 
