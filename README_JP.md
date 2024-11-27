@@ -67,7 +67,7 @@ Brought to you by:
 - [Buttercream](https://github.com/korakoe)
 
 このプロジェクトは、StyleTTSの著者であるYinghao Aaron Li氏の成果に基づいています。<br> 彼はこの分野で最も才能あるエンジニアの一人だと思います。
-
+また、スクリプトのデバッグで協力してくれたKarestoさんとRavenさんにも感謝します。本当に素晴らしい人たちです。
 
 ## なぜ？
 
