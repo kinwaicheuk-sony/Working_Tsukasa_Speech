@@ -47,7 +47,7 @@ This is a speech generation network, aimed at maximizing the expressiveness and 
 - Retrained PL-Bert, Pitch Extractor, Text Aligner from scratch
 - Whisper's Encoder instead of WavLM for the SLM
 - 48khz Config 
-- improved Performance on non-verbal sounds and cues. such as sigh, pauses, etc. and also very slightly on laughter.
+- improved Performance on non-verbal sounds and cues. such as sigh, pauses, etc. and also very slightly on laughter (depends on the speaker)
 - a new way of sampling the Style Vectors.
 - Promptable Speech Synthesizing.
 - a Smart Phonemization algorithm that can handle Romaji inputs or a mixture of Japanese and Romaji.
