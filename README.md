@@ -65,7 +65,7 @@ it also only supports the first mode of Kotodama's inference, which means no voi
 Brought to you by:
 
 - Soshyant (me)
-- [Auto Meta] (https://github.com/Alignment-Lab-AI)
+- [Auto Meta](https://github.com/Alignment-Lab-AI)
 - [Cryptowooser](https://github.com/cryptowooser)
 - [Buttercream](https://github.com/korakoe)
 
