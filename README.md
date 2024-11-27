@@ -107,7 +107,8 @@ launch train_first.py --config_path ./Configs/config.yml
 ```
 
 **Third stage training** (Kotodama, prompt encoding, etc.):
-```*maybe soon*
+```
+not planned right now, due to some constraints, but feel free to replicate.
 ```
 
 
