@@ -80,7 +80,7 @@ ________________________________________________________________________________
 Recently, there's a big trend towards larger models, increasing the scale. We're going the opposite way, trying to see how far we can push the limits by utilizing existing tools.
 Maybe, just maybe, scale is not necessarily the answer.
 
-There's also a few things that's related to Japanese. such as how we can improve the intonations for this language. what can be done to accurately annotate a text that can have various spellings depending on the context, etc.
+There's also a few things that's related to Japanese (but can have a wider impact on languages that face a similar issue like Arabic). such as how we can improve the intonations for this language. what can be done to accurately annotate a text that can have various spellings depending on the context, etc.
 
 ## How to do ...
 
