@@ -42,7 +42,6 @@ Github's repo:
 
 This is a speech generation network, aimed at maximizing the expressiveness and Controllability of the generated speech. at its core it uses [StyleTTS 2](https://github.com/yl4579/StyleTTS2)'s architecture with the following changes:
 
-- an entirely new data pre-processing pipeline
 - Incorporating mLSTM Layers instead of regular PyTorch LSTM layers, and increasing the capacity of the text and prosody encoder by using a higher number of parameters
 - Retrained PL-Bert, Pitch Extractor, Text Aligner from scratch
 - Whisper's Encoder instead of WavLM for the SLM
