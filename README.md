@@ -164,7 +164,7 @@ pip install -r requirements.txt
 
 ### Important Notes
 
-Check [here](not)
+Check [here](https://huggingface.co/Respair/Tsukasa_Speech/blob/main/Important_Notes.md)
 
 Any questions?
 ```email
