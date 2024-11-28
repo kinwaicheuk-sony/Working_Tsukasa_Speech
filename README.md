@@ -22,6 +22,8 @@ tags:
 
 # Tsukasa 司 Speech: Engineering the Naturalness and Rich Expressiveness 
 
+**Gradio seem to be down right now.** 
+
 **tl;dr** : I made a very cool japanese speech generation model.
 
 日本語のモデルカードは[こちら](https://huggingface.co/Respair/Tsukasa_Speech/blob/main/README_JP.md)。
