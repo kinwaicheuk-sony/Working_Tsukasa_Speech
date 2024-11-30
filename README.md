@@ -7,12 +7,13 @@ pipeline_tag: text-to-speech
 tags:
 - '#StyleTTS'
 - '#Japanese'
-- Diffusion
-- Prompt
+- '#Diffusion'
+- '#Prompt'
 - '#TTS'
 - '#TexttoSpeech'
 - '#speech'
 - '#StyleTTS2'
+- 'LLM'
 ---
 
 <div style="text-align:center;">
@@ -21,7 +22,6 @@ tags:
 
 
 # Tsukasa 司 Speech: Engineering the Naturalness and Rich Expressiveness 
-
 
 
 **tl;dr** : I made a very cool japanese speech generation model.
