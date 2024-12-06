@@ -5,6 +5,7 @@ language:
 - ja
 pipeline_tag: text-to-speech
 tags:
+
 - 'StyleTTS'
 - 'Japanese'
 - 'Diffusion'
@@ -14,7 +15,11 @@ tags:
 - 'speech'
 - 'StyleTTS2'
 - 'LLM'
+- 'anime'
+- 'voice'
+
 ---
+
 
 <div style="text-align:center;">
   <img src="https://i.postimg.cc/y6gT18Tn/Untitled-design-1.png" alt="Logo" style="width:300px; height:auto;">
