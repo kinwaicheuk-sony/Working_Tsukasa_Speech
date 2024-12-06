@@ -5,14 +5,14 @@ language:
 - ja
 pipeline_tag: text-to-speech
 tags:
-- '#StyleTTS'
-- '#Japanese'
-- '#Diffusion'
-- '#Prompt'
-- '#TTS'
-- '#TexttoSpeech'
-- '#speech'
-- '#StyleTTS2'
+- 'StyleTTS'
+- 'Japanese'
+- 'Diffusion'
+- 'Prompt'
+- 'TTS'
+- 'TexttoSpeech'
+- 'speech'
+- 'StyleTTS2'
 - 'LLM'
 ---
 
