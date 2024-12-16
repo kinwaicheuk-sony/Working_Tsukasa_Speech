@@ -116,6 +116,9 @@ or check the inference notebook. before that, make sure you read the **Important
 
 # Training:
 
+
+**Before starting remove lines 985 and 986 from models.py also remove "KotoDama_Prompt, KotoDama_Text" from the "build_model" function's parameters.**
+
 **First stage training**:
 ```bash
 accelerate launch train_first.py --config_path ./Configs/config.yml
