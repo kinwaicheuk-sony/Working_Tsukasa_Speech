@@ -30,8 +30,7 @@ tags:
 
 **tl;dr** : I made a very cool japanese speech generation model.
 
-**Checkpoints** will be released when I deal with a few small issues.
-
+**Checkpoints** have been released. I may prepare a Colab demo as well, but it should be easy to prepare it yourself. just clone this repo and use the provided notebooks.
 
 日本語のモデルカードは[こちら](https://huggingface.co/Respair/Tsukasa_Speech/blob/main/README_JP.md)。
 
