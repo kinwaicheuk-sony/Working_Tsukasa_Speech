@@ -1,4 +1,8 @@
 # load packages
+
+# Use this script if the DDP scripts didn't work out for you.
+# DDP スクリプトが機能しなかった場合は、このスクリプトを使用します。
+
 import random
 import yaml
 import time
