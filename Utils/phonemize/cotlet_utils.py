@@ -1005,8 +1005,10 @@ spaces = dict([
     ("aːj","aː aj"),
     ("aːɽ","a aɽ"),
     ("aːr","a ar"),
+    ("gaːn","ga an"),
     ("ɕiːk ","ɕi ik"),
-    ("ɕijoː neɴ","ɕoɯneɴ")
+    ("ɕijoː neɴ","ɕoɯneɴ"),
+    ("aːna","a ana"),
     
 
 ])
