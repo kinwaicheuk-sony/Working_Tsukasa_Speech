@@ -80,7 +80,7 @@ Brought to you by:
 - [Buttercream](https://github.com/korakoe)
 
 Special thanks to Yinghao Aaron Li, the Author of StyleTTS which this work is based on top of that. <br> He is one of the most talented Engineers I've ever seen in this field. 
-Also Karesto and Raven for their help in debugging some of the scripts. wonderful people.
+Also Karesto and Raven(a.k.a hexgrad) for their help in debugging some of the scripts. wonderful people.
 ___________________________________________________________________________________
 ## Why does it matter?
 
