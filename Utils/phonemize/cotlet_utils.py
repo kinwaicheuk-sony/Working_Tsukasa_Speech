@@ -886,7 +886,6 @@ def random_sym_fix_no_space(text):
         
     return text
 
-
 spaces = dict([
     
     ("ɯ ɴ","ɯɴ"),
@@ -980,12 +979,13 @@ spaces = dict([
     ("niːɕiki","ni iɕiki"),
     ("anitɕaɴ","niːtɕaɴ"),
     ("daiːtɕi","dai itɕi"),
-    ("niːta","ni ita"),
-    ("niːrɯ","ni irɯ"),
+    (" niːta"," ni ita"),
+    (" niːrɯ"," ni irɯ"),
     ("a—","aː"),
-    ("waːis","wa ais"),
-    ("waːiɕ","wa aiɕ"),
-    ("aːt","a at"),
+    ("iːki","i iki"),
+    (" waːis"," wa ais"),
+    (" waːiɕ"," wa aiɕ"),
+    # ("aːt","a at"),
     ("waːʔ", "wa aʔ"),
     
     ("naɴ sono","nani sono"),
@@ -1002,10 +1002,21 @@ spaces = dict([
     ("niːw","ni iw"),
     ("niːkɯ","ni ikɯ"),
     ("de—","de e"),
-    ("aːj","aː aj"),
-    ("aːɽ","a aɽ"),
-    ("aːr","a ar"),
-    ("gaːn","ga an"),
+    (" aːj"," aː aj"),
+    (" aːɽ"," a aɽ"),
+    (" aːr"," a ar"),
+    (" gaːn"," ga an"),
+
+    (" gaːɽɯ "," ga aɽɯ "),
+    (" waːɽɯ "," wa aɽɯ "),
+    (" gaːrɯ "," ga aɽɯ "),
+    (" waːrɯ "," wa aɽɯ "),
+    
+    (" gaːɽi"," ga aɽi"),
+    (" waːɽi"," wa aɽi"),
+    (" gaːri"," ga aɽi"),
+    (" waːri"," wa aɽi"),
+    
     ("ɕiːk ","ɕi ik"),
     ("ɕijoː neɴ","ɕoɯneɴ"),
     ("aːna","a ana"),
@@ -1014,11 +1025,22 @@ spaces = dict([
 ])
 
 
-
 def random_space_fix(text):
     orig = text
 
     for k, v in spaces.items():
         text = text.replace(k, v)
         
-    return text
+    return fix_wagas(text)
+
+def fix_wagas(text):
+
+    pattern = r'\b(gaːɽɯ|waːɽɯ|gaːrɯ|waːrɯ|gaːɽi|waːɽi|gaːri|waːri)\b(?!\s*\w)'
+
+    def replace_match(match):
+        word = match.group(1)
+        if 'ː' in word:
+            return word.replace('ː', ' a')
+        return word
+    
+    return re.sub(pattern, replace_match, text)
