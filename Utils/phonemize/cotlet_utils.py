@@ -886,6 +886,7 @@ def random_sym_fix_no_space(text):
         
     return text
 
+
 spaces = dict([
     
     ("ɯ ɴ","ɯɴ"),
@@ -1009,13 +1010,23 @@ spaces = dict([
 
     (" gaːɽɯ "," ga aɽɯ "),
     (" waːɽɯ "," wa aɽɯ "),
-    (" gaːrɯ "," ga aɽɯ "),
-    (" waːrɯ "," wa aɽɯ "),
+    (" gaːrɯ "," ga arɯ "),
+    (" waːrɯ "," wa arɯ "),
     
     (" gaːɽi"," ga aɽi"),
     (" waːɽi"," wa aɽi"),
-    (" gaːri"," ga aɽi"),
-    (" waːri"," wa aɽi"),
+    (" gaːri"," ga ari"),
+    (" waːri"," wa ari"),
+
+
+    (" gaːɽe"," ga aɽe"),
+    (" waːɽe"," wa aɽe"),
+    (" gaːre"," ga are"),
+    (" waːre"," wa are"),
+
+
+    (" gaːʔta"," ga aʔta"),
+    (" waːʔta"," wa aʔta"),
     
     ("ɕiːk ","ɕi ik"),
     ("ɕijoː neɴ","ɕoɯneɴ"),
