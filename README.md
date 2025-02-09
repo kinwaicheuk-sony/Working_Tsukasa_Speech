@@ -70,12 +70,6 @@ There are two checkpoints you can use. Tsukasa & Tsumugi 48khz (placeholder).
 Tsukasa was trained on ~800 hours of studio grade, high quality data. sourced mainly from games and novels, part of it from a private dataset.
 So the Japanese is going to be the "anime japanese" (it's different than what people usually speak in real-life.)
 
-For Tsumugi (placeholder) a subset of this data was used with a 48khz config; at around ~300 hours but in a more controlled manner with additional manual cleaning & annotations. 
-
-**Unfortuantely Tsumugi (48khz)'s context length is capped and that means the model will not have enough information to handle the intonations as good as Tsukasa. 
-it also only supports the first mode of Kotodama's inference, which means no voice design.**
-
-
 Brought to you by:
 
 - Soshyant (me)
