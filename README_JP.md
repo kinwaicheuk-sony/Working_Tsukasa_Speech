@@ -24,10 +24,12 @@ tags:
 
 **tl;dr** : I made a very cool japanese speech generation model.
 
+司を含む様々な技術を利用して作成した[Airaとの会話](https://huggingface.co/spaces/Respair/Chatting_with_Aira)をどうぞ試してみてください。（最適化はあまりされていないかもしれませんが、とりあえず動作します！）
+
 [個人プロジェクト](https://github.com/Respaired/Project-Kanade)の一部で、日本語Speech分野のさらなる発展に焦点を当てています。 
 
 - **Tsukasa** (24kHz)のHuggingFaceスペースを使用してください: [![huggingface](https://img.shields.io/badge/Interactive_Demo-HuggingFace-yellow)](https://huggingface.co/spaces/Respair/Tsukasa_Speech)
-- **Tsumugi** (48kHz)のHuggingFaceスペース: [![huggingface](https://img.shields.io/badge/Interactive_Demo-HuggingFace-yellow)](https://huggingface.co/spaces/Respair/Tsumugi_48khz)
+- ~~**Tsumugi** (48kHz)のHuggingFaceスペース: [![huggingface](https://img.shields.io/badge/Interactive_Demo-HuggingFace-yellow)](https://huggingface.co/spaces/Respair/Tsumugi_48khz)~~
 
 - Shoukan labのDiscordサーバーに参加してください、私がよく訪れる居心地の良い場所です -> [![Discord](https://img.shields.io/discord/1197679063150637117?logo=discord&logoColor=white&label=Join%20our%20Community)](https://discord.gg/JrPSzdcM)
 
