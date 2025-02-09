@@ -24,7 +24,7 @@ tags:
 
 **tl;dr** : I made a very cool japanese speech generation model.
 
-司を含む様々な技術を利用して作成した[Airaとの会話](https://huggingface.co/spaces/Respair/Chatting_with_Aira)をどうぞ試してみてください。（最適化はあまりされていないかもしれませんが、とりあえず動作します！）
+司を含む様々な技術を利用して作成した[愛良との会話](https://huggingface.co/spaces/Respair/Chatting_with_Aira)をどうぞ試してみてください。（最適化はあまりされていないかもしれませんが、とりあえず動作します！）
 
 [個人プロジェクト](https://github.com/Respaired/Project-Kanade)の一部で、日本語Speech分野のさらなる発展に焦点を当てています。 
 
