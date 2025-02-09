@@ -34,7 +34,7 @@ if the demo didn't work and you just want to listen to some samples, take a look
 
 ---
 
-**Checkpoints** have been released. I may prepare a Colab demo as well, but it should be easy to prepare it yourself. just clone this repo and use the provided notebooks.
+Try [chatting with Aira](https://huggingface.co/spaces/Respair/Chatting_with_Aira), a mini-project I did by using various Tech and algorithms, including Tsukasa. (maybe not very optimized, but hey, it works!)
 
 日本語のモデルカードは[こちら](https://huggingface.co/Respair/Tsukasa_Speech/blob/main/README_JP.md)。
 
