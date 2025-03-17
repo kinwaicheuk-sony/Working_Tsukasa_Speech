@@ -585,7 +585,7 @@ def main(config_path):
                     'iters': iters,
                     'epoch': epoch,
                 }
-                save_path = osp.join("/home/ubuntu/tts/Saib_Speech/Models/no_accel/", f'2nd_STAGE_{epoch*len(train_dataloader)+i}.pth')
+                save_path = osp.join(log_dir, f'2nd_STAGE_{epoch*len(train_dataloader)+i}.pth')
                 torch.save(state, save_path)  
                 
         loss_test = 0
