@@ -101,6 +101,11 @@ cd Tsukasa_Speech
 pip install -r requirements.txt
 ```
 
+4. Download the necessary models:
+```bash
+python checkpoint_download.py
+```
+
 
 # Inference:
 
