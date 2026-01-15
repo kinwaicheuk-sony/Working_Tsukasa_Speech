@@ -2,14 +2,14 @@ SoundFile
 munch
 pydub
 pyyaml
-torchaudio
+torchaudio==2.9.0
 librosa
 pydub
 pyyaml
 nltk
 matplotlib
 unidic-lite
-xlstm
+xlstm==2.0.5
 fugashi
 cutlet
 accelerate
@@ -20,4 +20,8 @@ tqdm
 typing
 typing-extensions
 a_unet
+konoha==5.6.0
+sentencepiece==0.2.1
+gradio==5.49.1
+openai==2.15.0
 git+https://github.com/resemble-ai/monotonic_align.git
