@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.gradio/
+Models/Style_Tsukasa_v02/Top_ckpt_24khz.pth
+Utils/ASR/bst_00080.pth
+Utils/JDC/bst.t7
+Utils/KTD/
+Utils/PLBERT/step_1050000.t7
